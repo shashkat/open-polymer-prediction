@@ -3,6 +3,34 @@ open polymer prediction
 
 Predicting polymer properties with machine learning to accelerate sustainable materials research.
 
+Environment information
+------------
+
+
+To create the necessary reproducible conda environment use this command.
+
+```
+conda env create -f environment.yml
+```
+
+
+For pip if there are any edits required to the venv.
+```
+pip list --format=freeze > requirements.txt
+```
+
+
+
+TODO
+------------
+
+1. Implement tree gh-action
+2. Create bash script to retrieve kaggle data.
+3. Implement an encoder class to retrieve huggingface or other arb. models to encode smiles strings.
+4. Train simpler models on SMILES embeddings.
+5. Perhaps try Pembed embeddings on structures.
+
+
 Project Organization
 ------------
 

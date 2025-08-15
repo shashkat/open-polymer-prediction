@@ -1,0 +1,6 @@
+name: openpoly
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+prefix: /Users/andrewlutsky/miniconda3/envs/openpoly
