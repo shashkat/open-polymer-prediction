@@ -25,8 +25,8 @@ TODO
 ------------
 
 1. Implement tree gh-action
-2. Create bash script to retrieve kaggle data.
-3. Implement an encoder class to retrieve huggingface or other arb. models to encode smiles strings.
+~~2. Create bash script to retrieve kaggle data. ~~
+~~3. Implement an encoder class to retrieve huggingface or other arb. models to encode smiles strings.~~
 4. Train simpler models on SMILES embeddings.
 5. Perhaps try Pembed embeddings on structures.
 
